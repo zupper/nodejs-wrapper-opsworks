@@ -9,9 +9,8 @@ To use these with OpsWorks do the following:
 * Add the redguide/nodejs cookbook as a dependency in your Berksfile
 * Create a "Custom Layer" in OpsWorks
 * Add the following custom recipes to your layer:
-** Setup: nodejs-wrapper, nodejs-wrapper::create-symlink
-** Configure: opsworks_nodejs::configure
-** Deploy: nodejs, deploy::nodejs
-** Undeploy: deploy::nodejs-undeploy
-** Shutdown: deploy::nodejs-stop
-
+  * Setup: nodejs-wrapper, nodejs-wrapper::create-symlink
+  * Configure: opsworks_nodejs::configure
+  * Deploy: nodejs, deploy::nodejs
+  * Undeploy: deploy::nodejs-undeploy
+  * Shutdown: deploy::nodejs-stop
